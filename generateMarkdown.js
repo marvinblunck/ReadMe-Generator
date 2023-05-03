@@ -1,4 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+
+const { describe } = require("node:test");
+
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
 
@@ -12,8 +15,21 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
+  return `# ${data.projectTitle}
+## Description
+${data.describe}
+## install
+${data.install}
+## usage
+${data.usage}
+## contribution
+${data.contribution}
+## testInstructions
+${data.testInstructions}
+## gitHubUsername
+${data.gitHubUsername}
+## Email
+${data.Email}
 `;
 }
 
