@@ -57,14 +57,16 @@ function init() {
                 message: "What is your email?",
             },
             {
-                name: "license ",
-                type: "input",
+                name: "license",
+                type: "list",
+                choices: ["MIT", "GPL_3.0"],
                 message: "What license  do you use?",
             }
         ])
         .then((answers) => {
             console.log(answers)
-            writeToFile("readMe.md");
+            const markdown=generateMarkdown(answers)
+            writeToFile("readMe2.md", markdown);
         })
         .catch((error) => {
             console.log(error)
