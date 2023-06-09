@@ -1,7 +1,7 @@
-# Password Generator
+# readme
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Description
-In challenge three we were given starter code and what we were meant to do is build a function that returns the user a new password when propmpted 5 questions.
+this is just a readme generator
 ## Table of Contents
 1. [Install](#install)
 2. [Usage](#usage)
@@ -11,16 +11,16 @@ In challenge three we were given starter code and what we were meant to do is bu
 6. [Email](#email)
 7. [License](#license)
 ## install
-N/A
+npm i
 ## usage
-Click the link to access the generator. Click the generate password button to be prompted the questions that you can answer to recieve a new unique password.
+you jsut click through it
 ## contribution
-I wrote everything on the page with the help of chat gpt on two functions.
+i wrote the code
 ## testInstructions
-I answered all the propmted questions and ensured that you would get a unique password each time you used it.
+i jsut did
 ## gitHubUsername
-marvin blunck
+marvin
 ## email
-marvinblunck@gmail.com
+marvin@email.com
 ## license
 MIT
